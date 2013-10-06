@@ -5,6 +5,9 @@ module Leaflet
     module Rails
       # make me a rails engine
       class Engine < ::Rails::Engine
+        initializer 'leaflet-rails.precompile' do |app|
+          app.config.assets.precompile += %w(spritesheet.png spritesheet-2x.png)
+        end
       end
     end
   end
