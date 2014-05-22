@@ -16,11 +16,6 @@ Include stylesheet assets in `app/assets/stylesheets/application.css`
 
         *= require leaflet.draw
 
-Include conditional IE stylesheet in your layout (example markup in [slim](http://slim-lang.com/))
-
-        /[if IE lte 8]
-          = stylesheet_link_tag 'leaflet.draw.ie'
-
 ## Contributing
 
 Fork & send a pull with decent commit messages
