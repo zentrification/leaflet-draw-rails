@@ -1,6 +1,6 @@
 # leaflet-draw-rails
 
-[Leaflet.draw](https://github.com/jacobtoye/Leaflet.draw) packaged for the rails asset pipeline
+[Leaflet.draw](https://github.com/Leaflet/Leaflet.draw) packaged for the rails asset pipeline
 
 ## Installation
 
@@ -15,11 +15,6 @@ Include javascript assets in `app/assets/javascripts/application.js`
 Include stylesheet assets in `app/assets/stylesheets/application.css`
 
         *= require leaflet.draw
-
-Include conditional IE stylesheet in your layout (example markup in [slim](http://slim-lang.com/))
-
-        /[if IE lte 8]
-          = stylesheet_link_tag 'leaflet.draw.ie'
 
 ## Contributing
 
