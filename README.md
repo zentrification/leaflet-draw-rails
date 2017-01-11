@@ -1,6 +1,6 @@
 # leaflet-draw-rails
 
-[Leaflet.draw](https://github.com/jacobtoye/Leaflet.draw) packaged for the rails asset pipeline
+[Leaflet.draw](https://github.com/Leaflet/Leaflet.draw) packaged for the rails asset pipeline
 
 ## Installation
 
